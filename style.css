@@ -1,90 +1,90 @@
-
-
 a {
-        
+
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #1F271B;
     font-weight: 700;
 }
 
 h1 {
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   color: #1F271B;
-   font-weight: 700;
-} 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1F271B;
+    font-weight: 700;
+}
+
 body {
-   background-color: #E6FDFF;
+    background-color: #E6FDFF;
 }
 
 .titulo-principal {
-   padding: 15px;
-   font-size: 40px;
-   text-align: center;
-   font-family: 'Bebas Neue', cursive;
-}
-#foto {
-   display: block;
-   margin: 0px auto;
-   border-radius: 10%;
+    padding: 15px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
 }
 
 p {
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: 15px;
-   color: #1F271B;
-   padding: 10px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #1F271B;
+    padding: 10px 50px;
 }
 
 .texto {
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: 18px;
-   color: #1F271B;
-   text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #1F271B;
+    text-align: center;
 }
 
 h2 {
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   color: #678D58;
-   font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #678D58;
+    font-weight: 700;
 }
 
 h3 {
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   color: #678D58;
-   font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #678D58;
+    font-weight: 700;
 }
 
 
 
 .centraliza-titulo {
-   text-align: center;
+    text-align: center;
 }
 
 #titulodark {
-   color: #E6FDFF;
+    color: #E6FDFF;
 }
 
 #header {
+    display: flex;
     border: 3px solid green;
-    
+
 }
 
 #descricao-container {
+    background-color: rgb(33, 6, 131);
+    /*  max-width: 30%;*/ 
+    /* padding: 15px; */
+    /* float: left; */
+    /* margin-left: 280px;
+    margin-top: 40px; */
+    height: 100px;
+    width: 30%;
+    border: 3px solid green;
     
-    max-width: 30%;
-    padding: 15px;
-    float: left;
-    margin-left: 280px;
-    margin-top: 40px;
-    
+
 }
 
 #header-img {
-   
-    float: right;
-    margin-right: 200px;
-    
-    
+    border: 3px solid red;
+    /* float: right; */
+    /* margin-right: 200px; */
+}
+#header-img img {
+    border-radius: 10%;
 }
 
 .clear {
@@ -92,6 +92,5 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #container-hab {
-    margin-top: 500px;
-    
+     margin-top: 500px; 
 }
